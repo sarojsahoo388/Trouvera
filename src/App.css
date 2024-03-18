@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+.main{
+position: absolute;
+width: 1920px;
+height: 4636px;
+justify-content: center;
+align-items: center;
+gap: 121px;
+background: #FFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.content{
+position: absolute;
+display: flex;
+width: 1271px;
+height: 650px;
+justify-content: center;
+align-items: center;
+gap: 121px;
+flex-shrink: 0;
+left: 326px;
+top: 1103px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text{
   display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;  
+}
+
+.b-text{
+color: #333;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 800px;
+line-height: normal;
+}
+
+.number{
+display: flex;
+align-items: flex-start;
+gap: 50px;
+}
+
+div ul li{
+  list-style: none;
+}
+.year{
+  color: #287D5F;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700px;
+line-height: 32px;
+}
+
+.slider{
+  position: absolute;
+  width: 1275px;
+  height: 429px;
+  top: 1894px;
+  left: 323px;
+  flex-shrink: 0;
+  color: var(--black, #333);
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 700px;
+line-height: normal;
+}
+.circle{
+  display: flex;
+  gap: 25px;
+  
+}
+.circle div{
+  position: relative;
+  top: 48px;
+  
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+.pic1{
+  background-image: url(https://indiatravel.com/wp-content/uploads/2022/03/Goa.jpg);
+  background-size: 100% 90%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pic2{
+  background-image: url(https://indiatravel.com/wp-content/uploads/2022/03/Alleppey.jpg);
+  background-size: 100% 90%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pic3{
+  background-image: url(https://indiatravel.com/wp-content/uploads/2024/03/Places-to-visit-in-Odisha.jpg);
+  background-size: 100% 90%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.pic4{
+  background-image: url(https://indiatravel.com/wp-content/uploads/2022/03/Mumbai.jpg);
+  background-size: 100% 90%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.landing{
+  position: relative;
+  top: 2464px;
+  
+}
+.green{
+  position: relative;
+  top: 98px;
+  width: 1920px;
+  height: 452px;
+  background: linear-gradient(93deg, #1D7B83 0%, #287D5F 27.39%);
+}
+
+.girl{
+  position: absolute;
+  display: flex;
+  left: 1000px;
+  bottom: 121px;
+  width: 1920px;
+  height: 452px;
+}
+.box{
+  position: relative;
+  left: 245px;
+  top: 45px;
+  width: 569px;
+  height: 317px;
+  border-radius: 24px;
+  background: rgba(134, 200, 196, 0.50);
+  display: inline-flex;
+  padding: 30px;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 32px;
 }
-
-.App-link {
-  color: #61dafb;
+.box div{
+display: inline-flex;
+padding: 15px;
+flex-direction: column;
+align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.word1{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.word2{
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+.btn{
+  width: 212px;
+  border: none;
+border-radius: 50px;
+background: #1D7B83;
+}
+.btn button {
+  border: none;
+  background-color: transparent;
+  color: var(--white, #FFF);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-items: flex-start;
+gap: 10px;
 }
